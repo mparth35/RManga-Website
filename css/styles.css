@@ -1,0 +1,262 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/********************************************************************** Headings *************************************************************/
+
+.big-heading {
+  font-weight: 800;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/******************************************************************** Containers **************************************************************/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/********************************************************************** Sections **************************************************************/
+
+.colored-section {
+  background-image: linear-gradient( #e40017 , #3a4750);
+  color: #fff;
+}
+
+.test-colored-section{
+  background-image: linear-gradient( #e40017 , #510000);
+  color: #fff;
+}
+
+.press-colored-section{
+  background-image: linear-gradient( #510000 , #3a4750);
+  color: #fff;
+}
+
+.white-section {
+  background-image: linear-gradient(#fff , #e1f4f3);
+}
+
+/****************************************************************** Navigation Bar ************************************************************/
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.website-logo{
+  width: 50px;
+  height: 40px;
+  margin-bottom: 8px;
+  filter: invert(100%);
+}
+
+.navbar-brand {
+  font-family: 'Akronim';
+  font-size: 2.8rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/************************************************************** Download Buttons ***************************************************************/
+
+.btn:active{
+  box-shadow: 0 8px #666;
+  transform: translateY(8px);
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/**************************************************************** Title Section ***************************************************************/
+
+.title .container-fluid {
+  padding: 3% 15% 6%;
+  text-align: left;
+}
+
+/***************************************************************** Title Image ****************************************************************/
+
+.title-image {
+  width: 28%;
+  transform: rotate(15deg);
+  right: 19%;
+  position: absolute;
+}
+
+/************************************************************** Features Section **************************************************************/
+
+.features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #e40017;
+  margin-bottom: 1rem;
+  transition: transform 0.8s ease-in-out;
+}
+
+.icon:hover {
+  color: #303841;
+  transform: rotateY(360deg);
+}
+
+/*********************************************************** Testimonial Section *****************************************************************/
+
+.testimonials {
+  background-color: #d72323;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image-1 {
+  width: 18%;
+  border-radius: 20%;
+  margin: 27px;
+
+}
+
+.testimonial-image-2 {
+  width: 15%;
+  border-radius: 20%;
+  margin: 21px;
+}
+
+.testimonial-image-3 {
+  width: 18%;
+  border-radius: 20%;
+  margin: 24px;
+}
+
+/************************************************************** Carousel Section **************************************************************/
+
+.carousel-item {
+  transition: transform 1s ease, opacity .5s ease-out;
+}
+
+/*************************************************************** Press Section ****************************************************************/
+
+.press {
+  background-color: #d72323;
+  padding-bottom: 3%;
+}
+
+.press-logo-1 {
+  width: 9%;
+  margin: 20px 70px 50px;
+}
+
+.press-logo-2 {
+  width: 7%;
+  margin: 20px 70px 50px;
+}
+
+.press-logo-3 {
+  width: 11%;
+  margin: 20px 30px 50px 70px;
+}
+
+.press-logo-4 {
+  width: 14%;
+  margin: 20px 70px 50px 50px;
+}
+
+/*************************************************************** Pricing Section **************************************************************/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+.pricing-list {
+  line-height: 2;
+}
+
+.btn-outline-red {
+  color: #e40017;
+  border-color: #e40017;
+}
+
+.btn-outline-red:hover {
+  color: #fff;
+  background-image: linear-gradient( #e40017 , #3a4750);
+  border-color: #e40017;
+}
+
+.card-border {
+  border-color: #e40017;
+}
+
+.card-background {
+  background-image: linear-gradient( #e40017 , #3a4750);
+}
+
+.btn-red {
+  color: #fff;
+  background-image: linear-gradient( #e40017 , #3a4750);
+  border-color: #e40017;
+}
+
+/******************************************************************* CTA Section ************************************************************/
+
+/****************************************************************  Footer Section ***********************************************************/
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/***************************************************************** Media Queries ***********************************************************/
+
+@media (max-width: 991px) {
+  .title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+.btn {
+    transition: 0.8s;
+}
+}
